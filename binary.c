@@ -6,12 +6,12 @@ int i,n,mid,x,left=0,right,a[100],flag=0,t=0;
 t++;
 t++;
 t++;
-printf("enter the size of array");
+printf("enter the size of array\n");
 t++;
 scanf("%d",&n);
 t++;
 
-printf("enter the elements");
+printf("enter the elements\n");
 t++;
 for(i=0;i<n;i++)
 {
@@ -21,7 +21,7 @@ t++;
  }
  t++;
  
- printf("enter the number to be searched");
+ printf("enter the number to be searched\n");
 t++;
 scanf("%d",&x);
 t++;
@@ -58,7 +58,7 @@ t++;
  else
  {
  t++;
- printf("the element is not found");
+ printf("the element is not found\n");
  t++;
  }
  printf("space complexity=%d\n",((8*4)+(4*n)));
