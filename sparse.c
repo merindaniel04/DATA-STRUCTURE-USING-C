@@ -3,9 +3,9 @@ void main()
 {
 int m,n,i,j,k=1;
 int a[20][20],b[20][3];
-printf("enter the rows and column of the matrix");
+printf("enter the rows and column of the matrix\n");
 scanf("%d%d",&m,&n);
-printf("enter the elements");
+printf("enter the elements\n");
 for(i=0;i<m;i++)
 {
 for(j=0;j<n;j++)
