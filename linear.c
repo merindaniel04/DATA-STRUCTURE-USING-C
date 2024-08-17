@@ -6,15 +6,15 @@ void main()
   int n,i,x,count=0,a[20],c=0;
   c++;
   c++;
-  printf("Enter the value of n:");
+  printf("Enter the value of n:\n");
   c++;
   scanf("%d",&n);
   c++;
-  printf("Enter the number to be searched:");
+  printf("Enter the number to be searched:\n");
   c++;
   scanf("%d",&x);
   c++;
-  printf("Enter the elements:");
+  printf("Enter the elements:\n");
   c++;
   for(i=0;i<n;i++)
   {
@@ -45,7 +45,7 @@ void main()
   else
   {
   c++;
-  printf("element not found");
+  printf("element not found\n");
   c++;
   }
   printf("space complexity=%d\n",((5*4)+(4*n)));
