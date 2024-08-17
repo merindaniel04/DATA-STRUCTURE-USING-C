@@ -3,11 +3,11 @@ void main()
 {
 int n,i,j,a[20],temp,t=0;
 t++;
-printf("enter the size of the array");
+printf("enter the size of the array\n");
 t++;
 scanf("%d",&n);
 t++;
-printf("enter the elements in the array");
+printf("enter the elements in the array\n");
 t++;
 for(i=0;i<n;i++)
 {
