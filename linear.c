@@ -1,9 +1,7 @@
 #include<stdio.h>
 void main()
 {
-
-
-  int n,i,x,count=0,a[20],c=0;
+ int n,i,x,count=0,a[20],c=0;
   c++;
   c++;
   printf("Enter the value of n:\n");
@@ -30,7 +28,6 @@ void main()
   {
   c++;
   count++;
-  
   printf("item found at location %d\n",i+1);
   c++;
   }
