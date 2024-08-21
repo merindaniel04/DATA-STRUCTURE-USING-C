@@ -1,4 +1,3 @@
-
  #include<stdio.h>
 void main()
 {
@@ -10,7 +9,6 @@ printf("enter the size of array\n");
 t++;
 scanf("%d",&n);
 t++;
-
 printf("enter the elements\n");
 t++;
 for(i=0;i<n;i++)
@@ -20,7 +18,6 @@ t++;
  t++;
  }
  t++;
- 
  printf("enter the number to be searched\n");
 t++;
 scanf("%d",&x);
