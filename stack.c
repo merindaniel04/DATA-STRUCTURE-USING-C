@@ -30,7 +30,7 @@ void display()
 		printf("Stack is empty");
 	else
 	{
-		for(int i=top;i>0;i--)
+		for(int i=top;i>=0;i--)
 			printf("%d\n",stack[i]);
 			
 	}
