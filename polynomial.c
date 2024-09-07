@@ -10,13 +10,13 @@ void main()
    printf("enter the number of terms present\n");
    scanf("%d",&n);
    struct poly x[n];
-   printf("enter the elements of the polynomial\n");
-   printf("enter the coefficient and exponential value in descending order\n");
+   printf("Enter the elements of the polynomial\n");
+   printf("Enter the coefficient and exponential value in descending order\n");
    for(i=0;i<n;i++)
     {
-     printf("enter the coefficient term\n");
+     printf("Enter the coefficient term\n");
      scanf("%d",&x[i].coeff);
-     printf("enter the exponential term\n");
+     printf("Enter the exponential term\n");
      scanf("%d",&x[i].expo);
     }
   printf("The polynomial is:\n");
