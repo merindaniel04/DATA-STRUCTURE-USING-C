@@ -20,13 +20,15 @@ void main() {
     header = (NODE*)malloc(sizeof(NODE));  
     header->link = NULL;
     do {
-        printf("Enter your choice\n");
-        printf("1.TRAVERSE\n"); 
-        printf("2.INSERT AT FRONT\t  3.INSERT AT END\t  4.INSERT AT ANY POSITION\t ");
-        printf("\n5.DELETE FROM FRONT\t  6.DELETE FROM END\t  7.DELETE FROM ANY POSITION\t ");
-        printf("\n8.DISPLAY LIST\t      9.EXIT\n");
+        printf("ENTER YOUR CHOICE\n");
+        printf("1.TRAVERSE\t  ");
+printf("2.INSERT AT FRONT\t    3.INSERT AT END\t    4.INSERT AT ANY POSITION\t  ");
+printf("5.DELETE FROM FRONT\t  6.DELETE FROM END\t  7.DELETE FROM ANY POSITION\t");
+printf("8.DISPLAY LIST\t       9.EXIT\n");
         scanf("%d", &no);
-      
+        if (no == 9)
+            break;
+        else {
             switch(no) {
                 case 1: traverse(); break;
                 case 2: insertfront(); break;
@@ -38,9 +40,11 @@ void main() {
                 case 8: display(); break;  
                 default: printf("INVALID ENTRY\n"); break;
             }
-           
-        
-    } while(no!=8);
+
+            printf("Do you want to continue (y/n): ");
+            scanf(" %c", &c);
+        }
+    } while(c == 'y' || c == 'Y');
 }
 void insertfront() {
     newptr = (NODE*)malloc(sizeof(NODE));
